@@ -1,0 +1,245 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #2c3e50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1 a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a{
+    color: white;
+    display: inline-block;
+    padding-left: 40px;
+    text-decoration: none;
+    transition: .2s;
+}
+nav ul li a:hover{
+    color: #1ABC9C;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+
+.basliq{
+    width: 100%;    
+    background-color: #1ABC9C;
+    text-align: center;
+}   
+.basliq img{
+    margin: auto;
+    width: 100%;
+    height: 250px;
+    padding-top: 80px;
+}
+.basliq h1{
+    color: white;
+    font-size: 65px;
+    margin: 40px 0px;
+}
+.basliq hr{
+    width: 50%;
+    margin: auto;
+}
+.basliq i{
+    color: white;
+    font-size: 35px;
+}
+.basliq p{
+    color: white;
+    font-size: 26px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.PORTFOLIO{
+    width: 100%;
+    text-align: center ;
+}
+.PORTFOLIO h1{
+    width: 100%;
+    height: 50px;
+    margin: 50px 0px;
+    text-align: center;
+    color: #2c3e50;
+    font-size: 50px;
+}
+.PORTFOLIO i{
+    font-size: 35px;
+    color: #2c3e50;
+}
+.PORTFOLIO hr{
+        width: 50%;
+        margin: auto;
+}
+.PORTFOLIO .items{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.PORTFOLIO .img{
+    width: 30%;
+    height: 250px;
+    border-radius: 0.2cm;
+    position: relative;
+}
+.ust{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: #1ABC9C;
+   top: 0px;
+   opacity: 0;
+   font-size: 100px;
+   color: white;
+   padding-top: 60px;
+}   
+.img:hover .ust{
+    opacity: .9;
+}
+.PORTFOLIO .img img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+    width: 100%;
+    background-color: #1ABC9C;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.about h1{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    color: white;
+}
+.about hr{
+    width: 50%;
+    margin: auto;
+}
+.about i{
+    color: white;
+    font-size: 35px;
+    padding-top: 30px;
+}
+.about .text{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about .text div{
+    text-align: left;
+    box-sizing: border-box;
+    width: 40%;
+    height: 30%;    
+    padding-top: 10px;
+    font-size: 1.25rem;
+    color: white;
+
+}
+.about a{
+    width: 30%;
+    height: 50px;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    height: 20px;
+    align-items: center;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: .2cm;
+}
+.btn i{
+        font-size: 17px;
+}
+.contact{
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+}
+.contact h1{
+    width: 100%;
+    height: 50px;
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #2c3e50;
+}
+.contact hr{
+    width: 50%;
+    margin: auto;
+}
+.contact i{
+    color: #2c3e50  ;
+    font-size: 35px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+.inputlar input{
+    width: 50%;
+    height: 50px;
+    margin:20px auto;
+    border-style: none;
+}
+textarea{
+    border-style: none;
+    margin-top: 20px;
+}
+button{
+    width: 10%;
+    padding: 20px 50px;
+    background-color: #1ABC9C;
+    color: white;
+    border-style: none;
+    border-radius: .2cm;
+    margin-right: 530px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.son{
+    width: 100%;
+    height: 300px;
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+}
+.son div{
+    color: white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+}
+.son div h1{
+    padding-top: 90px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #181e25;
+    padding-top: 25px;
+    color: white;
+}
